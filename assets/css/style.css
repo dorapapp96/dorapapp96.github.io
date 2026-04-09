@@ -300,6 +300,9 @@ h3 {
   margin-top: 0;
   padding: 30px 40px;
   text-transform: uppercase;
+  margin-left: calc((95% - 100%) / 2);
+  margin-right: calc((95% - 100%) / 2);
+  width: auto;
 }
 
 .section {
