@@ -126,15 +126,10 @@
 body {
   color: #333;
   font-size: 18px;
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100vw;
 }
 
 html {
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100vw;
+  scroll-behavior: smooth;
 }
 
 /* body {
@@ -211,6 +206,8 @@ nav i {
 main {
   background: url(../../assets/img/bg.png) repeat;
   padding-left: 190px;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 dl {
