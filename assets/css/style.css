@@ -126,6 +126,11 @@
 body {
   color: #333;
   font-size: 18px;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /* body {
@@ -300,9 +305,10 @@ h3 {
   margin-top: 0;
   padding: 30px 40px;
   text-transform: uppercase;
-  margin-left: calc(-2.5%);
-  margin-right: calc(-2.5%);
-  width: calc(100% + 5%);
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .section {
