@@ -127,10 +127,14 @@ body {
   color: #333;
   font-size: 18px;
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 html {
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 /* body {
@@ -315,6 +319,7 @@ h3 {
   padding-bottom: 30px;
   padding-top: 0;
   position: relative;
+  scroll-margin-top: 20px;
 }
 
 .full-height {
